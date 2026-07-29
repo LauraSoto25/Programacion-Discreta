@@ -1,7 +1,8 @@
 # Taller 3 - Programación Discreta
 
 **Asignatura:** Matemáticas Discretas I  
-**Docente:** Jhoan Sebastian Tenjo García  
+**Docente:** Jhoan Sebastian Tenjo García
+**Estudiantes:** Diego Alejandro Mejia Sanchez y Laura Valentina Soto Rodriguez
 **Universidad Nacional de Colombia**  
 
 ## Estructura del Proyecto
