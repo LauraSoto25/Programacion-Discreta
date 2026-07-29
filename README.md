@@ -19,7 +19,9 @@ Programacion-Discreta/
 │   │   └── mpc.py
 │   ├── grafos/             # Bloque B: Grafos (Dijkstra, Cierre estación, Coloreo)
 │   │   ├── __init__.py
-│   │   └── dijkstra.py
+│   │   ├── dijkstra.py
+│   │   ├── cierre_estacion.py
+│   │   └── coloreo.py
 │   ├── boole/              # Bloque C: Álgebra de Boole (Tablas de verdad, Quine-McCluskey)
 │   │   └── __init__.py
 │   └── cuantica/           # Bloque C: Simulador cuántico (Qubits, Compuertas X, Z, H)
@@ -29,12 +31,16 @@ Programacion-Discreta/
 │   ├── test_cesar.py
 │   ├── test_rsa.py
 │   ├── test_mpc.py
-│   └── test_dijkstra.py
+│   ├── test_dijkstra.py
+│   ├── test_cierre.py
+│   └── test_coloreo.py
 └── docs/                   # Documentación explicativa en Markdown / PDF
     ├── 01_cesar.md
     ├── 02_rsa.md
     ├── 03_mpc.md
-    └── 04_dijkstra.md
+    ├── 04_dijkstra.md
+    ├── 05_cierre_estacion.md
+    └── 06_coloreo.md
 ```
 
 ## Requisitos e Instalación
@@ -63,6 +69,16 @@ python src/cripto/mpc.py
 ### 4. Ruta más corta con Dijkstra (Ejercicio 4)
 ```bash
 python src/grafos/dijkstra.py
+```
+
+### 5. Cierre de estación (Ejercicio 5)
+```bash
+python src/grafos/cierre_estacion.py
+```
+
+### 6. Coloreo de grafos (Ejercicio 6)
+```bash
+python src/grafos/coloreo.py
 ```
 
 ### Ejecución de Pruebas Unitarias
