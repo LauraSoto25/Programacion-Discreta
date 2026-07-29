@@ -22,12 +22,14 @@ Programacion-Discreta/
 │   │   ├── dijkstra.py
 │   │   ├── cierre_estacion.py
 │   │   └── coloreo.py
-│   ├── boole/              # Bloque C: Álgebra de Boole (Tablas de verdad, Quine-McCluskey)
+│   ├── boole/              # Bloque C: Álgebra de Boole (Tablas de verdad, Quine-McCluskey, Shannon)
 │   │   ├── __init__.py
 │   │   ├── tablas.py
-│   │   └── simplificacion.py
+│   │   ├── simplificacion.py
+│   │   └── shannon.py
 │   └── cuantica/           # Bloque C: Simulador cuántico (Qubits, Compuertas X, Z, H)
-│       └── __init__.py
+│       ├── __init__.py
+│       └── simulador.py
 ├── tests/                  # Pruebas unitarias automatizadas
 │   ├── __init__.py
 │   ├── test_cesar.py
@@ -37,7 +39,9 @@ Programacion-Discreta/
 │   ├── test_cierre.py
 │   ├── test_coloreo.py
 │   ├── test_tablas.py
-│   └── test_simplificacion.py
+│   ├── test_simplificacion.py
+│   ├── test_shannon.py
+│   └── test_simulador.py
 └── docs/                   # Documentación explicativa en Markdown / PDF
     ├── 01_cesar.md
     ├── 02_rsa.md
@@ -46,7 +50,9 @@ Programacion-Discreta/
     ├── 05_cierre_estacion.md
     ├── 06_coloreo.md
     ├── 07_tablas.md
-    └── 08_simplificacion.md
+    ├── 08_simplificacion.md
+    ├── 09_shannon.md
+    └── 10_simulador.md
 ```
 
 ## Requisitos e Instalación
@@ -95,6 +101,16 @@ python src/boole/tablas.py
 ### 8. Simplificación Booleana (Ejercicio 8)
 ```bash
 python src/boole/simplificacion.py
+```
+
+### 9. Entropía de Shannon (Ejercicio 9)
+```bash
+python src/boole/shannon.py
+```
+
+### 10. Simulador Cuántico (Ejercicio 10)
+```bash
+python src/cuantica/simulador.py
 ```
 
 ### Ejecución de Pruebas Unitarias
