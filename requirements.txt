@@ -1,0 +1,5 @@
+# Dependencias para Taller 3 - Programación Discreta
+# El proyecto utiliza módulos de la librería estándar de Python.
+# Opcional (para graficación o comprobación en bloques de Grafos/Boole):
+# networkx>=3.0
+# sympy>=1.12
