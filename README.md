@@ -23,7 +23,9 @@ Programacion-Discreta/
 │   │   ├── cierre_estacion.py
 │   │   └── coloreo.py
 │   ├── boole/              # Bloque C: Álgebra de Boole (Tablas de verdad, Quine-McCluskey)
-│   │   └── __init__.py
+│   │   ├── __init__.py
+│   │   ├── tablas.py
+│   │   └── simplificacion.py
 │   └── cuantica/           # Bloque C: Simulador cuántico (Qubits, Compuertas X, Z, H)
 │       └── __init__.py
 ├── tests/                  # Pruebas unitarias automatizadas
@@ -33,14 +35,18 @@ Programacion-Discreta/
 │   ├── test_mpc.py
 │   ├── test_dijkstra.py
 │   ├── test_cierre.py
-│   └── test_coloreo.py
+│   ├── test_coloreo.py
+│   ├── test_tablas.py
+│   └── test_simplificacion.py
 └── docs/                   # Documentación explicativa en Markdown / PDF
     ├── 01_cesar.md
     ├── 02_rsa.md
     ├── 03_mpc.md
     ├── 04_dijkstra.md
     ├── 05_cierre_estacion.md
-    └── 06_coloreo.md
+    ├── 06_coloreo.md
+    ├── 07_tablas.md
+    └── 08_simplificacion.md
 ```
 
 ## Requisitos e Instalación
@@ -79,6 +85,16 @@ python src/grafos/cierre_estacion.py
 ### 6. Coloreo de grafos (Ejercicio 6)
 ```bash
 python src/grafos/coloreo.py
+```
+
+### 7. Tablas de verdad (Ejercicio 7)
+```bash
+python src/boole/tablas.py
+```
+
+### 8. Simplificación Booleana (Ejercicio 8)
+```bash
+python src/boole/simplificacion.py
 ```
 
 ### Ejecución de Pruebas Unitarias
